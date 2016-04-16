@@ -40,7 +40,7 @@ Item使用简单的class定义语法以及 :class:`Field` 对象来声明。例�
 Item字段(Item Fields)
 ==============================
 
-:class:`Field` 对象指明了每个字段的元数据(metadata)。例如下面例子中 ``last_updated`` 中指明了该字段的序列化函数。
+:class:`Field` 对象指明了每个字段的元数据(metadata)。例如上面例子中 ``last_updated`` 中指明了该字段的序列化函数。
 
 您可以为每个字段指明任何类型的元数据。
 :class:`Field` 对象对接受的值没有任何限制。也正是因为这个原因，文档也无法提供所有可用的元数据的键(key)参考列表。
